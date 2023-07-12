@@ -1,0 +1,623 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #wrapper {
+    margin: 0;
+    position: relative;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0065fe;
+  }
+  
+  /* ------------------------------------------section hero-------------------------------------------------------- */
+  
+  #hero {
+    margin: 0;
+    background-image: linear-gradient(
+      to right,
+      rgba(200, 192, 203, 0.5),
+      rgba(255, 255, 200, 0.2)
+    );
+    position: relative;
+    padding-bottom: 50px;
+  }
+  
+  .header {
+    display: flex;
+    width: 1100px;
+    height: 44px;
+    margin: 5px auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sub-header1,
+  .sub-header2 {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    color: #0065fe;
+  }
+  
+  .sub-header2 {
+    gap: 19px;
+  }
+  
+  nav {
+    display: flex;
+    flex: 3 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  nav li a {
+    font-size: 18px;
+  }
+  
+  nav li select {
+    font-size: 16px;
+  }
+  
+  nav li {
+    list-style-type: none;
+  }
+  
+  nav li a,
+  select {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }
+  select {
+    background-color: rgba(210, 192, 221, 0.001);
+    border: 0px;
+    outline: 0px;
+  }
+  .first-link a {
+    color: #0065fe;
+  }
+  
+  .sub-header2 button {
+    background-color: #0065fe;
+    color: white;
+    border-radius: 18px;
+    border: 1px solid #0065fe;
+    padding: 10px 30px;
+    cursor: pointer;
+  }
+  
+  .sub-header2 a {
+    font-weight: bold;
+  }
+  
+  .optimize p {
+    text-align: center;
+    font-family: "Gilroy-Bold";
+    font-size: 48px;
+    line-height: 96px;
+    color: #141414;
+    margin-bottom: 0px;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  span {
+    color: rgb(0, 101, 255);
+    font-weight: bold;
+    font-family: "Gilroy-Bold";
+  }
+  
+  .optimize p span {
+    color: rgb(20, 80, 240);
+  }
+  
+  .slant-line {
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .personalise p,
+  .seamless p {
+    text-align: center;
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 28px;
+    color: #141414;
+  }
+  
+  .up {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .up button {
+    background-color: #0065fe;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid #0065fe;
+    padding: 10px 30px;
+    font-family: "Gilroy-SemiBold";
+    font-size: 16px;
+    line-height: 12px;
+  }
+  
+  .seamless {
+    margin: 50px 30px 0px 250px;
+  }
+  
+  .base {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  /* --------------------------------section deskstop-10------------------------------------------ */
+  #deskstop-10 {
+    background-color: white;
+    margin: 0;
+    padding: 0 24px 24px 80px;
+  }
+  
+  .possibilities {
+    display: flex;
+  }
+  
+  .p1 {
+    flex: 0.8;
+  }
+  
+  .p2 {
+    flex: 2;
+    margin-left: 20px;
+  }
+  
+  .scissors {
+    display: flex;
+    margin-top: 100px;
+  }
+  
+  .service1,
+  .service2 {
+    flex: 1.5;
+  }
+  
+  .why {
+    flex: 2;
+  }
+  
+  .line-sign {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .point2a {
+    margin-left: 20px;
+  }
+  
+  .service1b,
+  .service2b {
+    margin-top: 80px;
+  }
+  
+  .possibilities .p2,
+  .why strong,
+  #deskstop-1 strong {
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .possibilities .p1 strong {
+    font-family: Gilroy-SemiBold;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .point1 {
+    font-family: Gilroy-SemiBold;
+    font-size: 32px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  
+  .point2 {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  /* -- -------------------------------section deskstop-1---------------------------------------- */
+  #deskstop-1 {
+    margin: 0;
+    background-color: white;
+    padding: 24px;
+  }
+  
+  .deskstop1-head {
+    margin-top: 80px;
+  }
+  
+  .deskstop1-head,
+  .deskstop1-head .point2 {
+    text-align: center;
+  }
+  
+  .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .basic,
+  .professional,
+  .teams {
+    flex-basis: 300px;
+    margin-top: 50px;
+  }
+  
+  .professional {
+    height: 450px;
+    padding-top: 40px;
+    border-radius: 10px;
+  }
+  
+  .professional p:first-child {
+    margin-top: 45px;
+  }
+  
+  .basic p,
+  .professional p,
+  .teams p {
+    margin-left: 15%;
+  }
+  
+  .basic,
+  .teams {
+    border: 1px solid #0065fe;
+  }
+  
+  .basic {
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .teams {
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .professional,
+  .professional p span {
+    background-color: rgb(5, 50, 80);
+    color: white;
+  }
+  
+  .basic p img,
+  .professional p img,
+  .teams p img {
+    vertical-align: middle;
+  }
+  
+  .basic p:first-child,
+  .professional p:first-child,
+  .teams p:first-child {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0em;
+  }
+  
+  .third {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0em;
+  }
+  
+  .check {
+    color: #141414;
+    font-weight: normal;
+    vertical-align: middle;
+  }
+  
+  .pricing {
+    text-align: center;
+  }
+  
+  .pricing button {
+    padding: 10px;
+    width: 140px;
+    margin: 50px 10px;
+    border-radius: 20px;
+    border: 1px solid #0065fe;
+  }
+  
+  .pricing button:first-child {
+    color: #0065fe;
+    background-color: white;
+  }
+  
+  .pricing button + button {
+    background-color: #0065fe;
+    color: white;
+  }
+  
+  /* --------------------------------section deskstop-11------------------------------------------ */
+  
+  #deskstop-11 {
+    position: relative;
+    padding: 30px;
+    background-color: rgb(5, 50, 80);
+  }
+  
+  .darkTop2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 390px;
+    width: 780px;
+  }
+  
+  .darkBottom2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 700px;
+  }
+  
+  .front {
+    color: #0065fe;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .paste {
+    color: #0065fe;
+    width: 380px;
+    padding: 10px;
+    border: 1px solid #0065fe;
+    border-radius: 10px;
+  }
+  
+  .choose-type {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .choose,
+  .type {
+    padding: 10px;
+    border: 1px solid #0065fe;
+    border-radius: 10px;
+    color: #0065fe;
+    flex: 1;
+  }
+  
+  .trim {
+    width: 400px;
+    padding: 10px;
+    background-color: #0065fe;
+    color: white;
+    border: 1px solid #0065fe;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+  }
+  
+  .trim span {
+    color: white;
+  }
+  
+  .intro1 {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4);
+    bottom: 0;
+    left: 0;
+  }
+  
+  /*-------------------------------------------- FAQs Section---------------------------------------------------------- */
+  
+  #FAQs {
+    margin: 0;
+    padding: 5px 250px 150px;
+    background-color: white;
+    position: relative;
+    padding-top: 0;
+  }
+  
+  .faqUpImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 630px;
+  }
+  
+  .faqDownImage {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
+  #FAQs .question span {
+    color: #141414;
+  }
+  
+  .qa {
+    background-color: inherit;
+  }
+  
+  .qa p span:first-of-type {
+    color: #141414;
+  }
+  
+  .qa p:first-of-type {
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    line-height: 32px;
+    letter-spacing: 0em;
+  }
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: normal;
+  }
+  
+  .question span {
+    font-weight: normal;
+  }
+  
+  /* -------------------------------------------- rovolution Section---------------------------------------------------------- -- */
+  
+  #revolution {
+    margin: 0;
+    padding: 40px;
+    position: relative;
+    background-color: rgb(5, 50, 80);
+  }
+  
+  .darkTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+  }
+  
+  .darkBottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+  }
+  
+  .revo p {
+    text-align: center;
+    color: white;
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    margin-top: 50px;
+  }
+  
+  .revo button {
+    background-color: #0065fe;
+    border-radius: 20px;
+    padding: 10px 25px;
+    border: 1px solid #0065fe;
+    color: white;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /*---------------------------------------------------------Footer Section------------------------------------------------- */
+  
+  #footer {
+    margin: 0;
+    background-color: white;
+    padding: 24px;
+    position: relative;
+  }
+  
+  .footUpImage {
+    position: absolute;
+    left: 0;
+    height: 460px;
+  }
+  
+  .footDownImage {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 320px;
+  }
+  
+  .footy {
+    margin-left: 130px;
+    background-color: inherit;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  
+  .foot1 {
+    flex: 2;
+    margin-top: 15px;
+  }
+  
+  .foot {
+    flex: 1.5;
+  }
+  
+  .footend {
+    display: flex;
+    width: 400px;
+    position: absolute;
+    right: 20px;
+    gap: 10px;
+    justify-content: center;
+    bottom: 20px;
+  }
+  
+  .footend span {
+    color: #141414;
+    font-weight: normal;
+  }
+  .social {
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .resources {
+    margin-top: 50px;
+  }
+  
+  .feat {
+    margin-top: 30px;
+  }
+  
+  .legal {
+    margin-top: 50px;
+  }
+  
+  .demacate {
+    width: 0;
+    height: 20px;
+    border: 0.8px solid #141414;
+  }
